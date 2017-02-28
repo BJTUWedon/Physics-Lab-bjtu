@@ -1,6 +1,6 @@
 <?php
-define("MYSQL_IP","localhost");
-define("MYSQL_USER","root");
-define("MYSQL_PASSWD","LChina7988");
+define("MYSQL_IP","");
+define("MYSQL_USER","");
+define("MYSQL_PASSWD","");
 
 ?>
