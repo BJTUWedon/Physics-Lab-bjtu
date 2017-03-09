@@ -189,7 +189,7 @@ margin-top:26px;margin-left:43px;}
 .sub_e2_canguan{width:180px;height:180px;background-color:#a9007f;overflow:hidden;}
 .sub_canguan{width:54px;height:70px;margin-left:63px;margin-top:38px;background:url(image/qiandao.png);}
 /*参观指南*/
-.sub_block2_jiaoyu{width:800px;height:700px;float:left;background:rgba(41, 128, 185,0.88);overflow:hidden;}
+.sub_block2_jiaoyu{width:800px;height:700px;float:left;background:rgba(21,3,160,0.88);overflow:hidden;}
 .sub_e2_jiaoyu{width:180px;height:180px;background:rgba(21,3,160,0.88);overflow:hidden;}
 .sub_jiaoyu{width:68px;height:68px;margin-left:62px;margin-top:40px;background:url(image/process1.png);}
 /*物理实验室*/
@@ -247,7 +247,7 @@ margin-top:26px;margin-left:43px;}
 .right_line2{width:580px;height:250px;margin-top: 20px}
 
 .right_line1_right{width:380px;height:180px;float:left;
-       background-color:rgba(231, 76, 60,0.88);
+       background-color:#e00922;opacity:0.88;
 	overflow:hidden;
 }
 .right_line1_right:hover{border: rgba(255,255,255,0.8) solid 4px;}
@@ -260,13 +260,12 @@ margin-top:26px;margin-left:43px;}
 		   line-height:100%}
 /*改尺寸*/
 .right_connect{width:180px;height:180px;float:right;
-              background-color:rgba(192, 57, 43,0.88);
-              text-align: center;
+              background-color:#1ab19d;opacity:0.88;text-align: center;
 			  }
-.right_connect:hover{border: rgba(255,255,255,0.88) solid 4px;}
+.right_connect:hover{border: rgba(255,255,255,0.8) solid 4px;}
 
 .right_blog{width:280px;height:250px;float:left;
-           background-color:rgba(230, 126, 34,0.88);text-align: center;
+           background-color:#3dae67;opacity:0.88;text-align: center;
 		   }
 .right_blog:hover{border: rgba(255,255,255,0.8) solid 4px;}
 
@@ -280,8 +279,7 @@ margin-top:26px;margin-left:43px;}
 }
 
 .right_train{width:280px;height:250px;float:left;
-            background-color:rgba(241, 196, 15,0.88);
-            text-align: center;
+            background-color:#f69e37;opacity:0.88;text-align: center;
 			}
 .right_train:hover{border: rgba(255,255,255,0.8) solid 4px;}
 
@@ -359,7 +357,7 @@ margin-top:26px;margin-left:43px;}
 	margin-left: 20px;
 	float: left;
 	text-align: center;
-	background:rgba(52, 152, 219,0.88);
+	background:rgba(87,193,206,0.88);
 	
 }
 .left_tour:hover{border: rgba(255,255,255,0.8) solid 4px;}
