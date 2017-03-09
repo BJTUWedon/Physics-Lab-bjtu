@@ -1,0 +1,38 @@
+body {
+            background: url(images/super_blur_back2.jpg);
+            background-size: cover;
+        }
+
+        .ui.grid.divided.segment.container{
+            height: 400px;
+            width:600px !important;
+            border:rgba(255, 0, 0, 0);
+            position: absolute;
+            left: 5%;
+            top:5%;
+            /*transform: translate(-50%,-50%);*/
+        }
+
+        .five.wide.column {
+            background: url(images/red_regi.jpg);
+            background-size: cover;
+            background-position: 60% 0%;
+        }
+
+        form {
+            margin-top: 60px;
+        }
+        h1,h3,h4{
+            font-family: 'Play', sans-serif !important;
+
+        }
+        #content{
+        	position: absolute;
+        	right:5%;
+        	top:5%;
+        	height: 400px;
+            width:600px !important;
+        }
+        #subpart{
+            /*visibility: yes;*/
+        }

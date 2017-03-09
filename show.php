@@ -23,6 +23,8 @@ if(isset($_POST["title"])&&isset($_POST["content"]))
 	$parts->pagetitle($pid);
 	?></title>
 <link href="./settings.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./css/update.css">
+<link rel="stylesheet" type="text/css" href="./css/SemanticUI/semantic.css">
 <style>
 	a{
 		color:#ffffff;font-family: Adobe 黑体 Std,Adobe 黑体 Std R;
@@ -75,34 +77,25 @@ if(isset($_POST["title"])&&isset($_POST["content"]))
 				
 			</div>
              
-            <a href="#"><div class="sub_sText2">
-            	<div class="sub_con">
-                	<div class="sub_clock"></div>
-                    <div class="sub_x2"></div>
-					<div class="sub_clockTxt">开放时间</div></div>
-					
-                <div class="sub_t2"><p>周一至周五</p>
-			
- <p>&nbsp;上午8:30-12:00<br>&nbsp;下午2:00-6:00</p>
-		    
-<p>周末:</p>
-		    
-<p>&nbsp;上午7:30-12:00<br>&nbsp;下午1:00-10:00</p>
- 
-				</div>
-            </div></a>
-            
-            <a href="#"><div class="sub_sText3">
-            	<div class="sub_con">
-                	<div class="sub_phone"></div>
-                    <div class="sub_x3"></div>
-					<div class="sub_phoneTxt">联系我们</div>
-                </div>
-                <div class="sub_t3">电话：1383838438
-<br>邮箱：physiclab@bjtu.edu.cn
-<br>公众号：北京交通大学威海校区</div>
-				</div></a>
-        </div>
+            <div class="lab_menu">
+	            <div class="ui transparent segment">
+	            	<div class="ui two column grid">
+	            		<div class="column">
+	            			<div class="ui segment">光学实验室</div>
+	            		</div>
+	            		<div class="column">
+	            			<div class="ui segment">光学实验室</div>
+	            		</div>
+	            		<div class="column">
+	            			<div class="ui segment">光学实验室</div>
+	            		</div>
+	            		<div class="column">
+	            			<div class="ui segment">光学实验室</div>
+	            		</div>
+	            	</div>
+	            </div>
+            </div>
+       </div>
     </div>    
 
 </div>

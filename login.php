@@ -25,6 +25,7 @@ else
 	<head>
 		<meta charset="UTF-8">
 		<link href="admin.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/SemanticUI/semantic.css">
 	</head>
 	<body>
 	<div class="loginbg">
