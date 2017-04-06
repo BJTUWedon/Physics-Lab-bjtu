@@ -2,7 +2,8 @@
 
 This program is developed for the Beijing Jiao Tong University Weihai campus physics lab.<br>
 Using PHP,Javascript,and Vue.js<br>
-#Usage
+# Usage
+
 This project require a normal LAMP(Linux+Apache+MySQL+PHP) environment server.<br>
 You need to edit basic information in ./config/config.php for mysql.<br>
 .sql is also under ./config profile.<br>
