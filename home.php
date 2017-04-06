@@ -1,6 +1,6 @@
 <!doctype html>
 <?php
-require("./global/dev.php");
+require("./css/dev.php");
 $parts=new parts;
 $source=new source;
 ?>
@@ -32,8 +32,8 @@ $source=new source;
 	 </div>
 	</div>
 <div class="left_line2">
-	  <a href="show.php?pid=jiaoyu">
-       <div class="left_edu position_rel" style="background:rgba(21,3,160,0.88)" v-on:mouseover="cover" v-on:mouseout="uncover">
+	  <a href="new.php?pid=jiaoyu">
+       <div class="left_edu position_rel" style="background:rgba(41, 128, 185,0.88)" >
        	<div class="dark_cover">
        		<?php
 					$source->connectsql();
@@ -57,8 +57,8 @@ $source=new source;
 	     
 	  </div>
 	 </a>
-	 <a href="show.php?pid=peixun"> 
-      <div class="left_source position_rel" style="background:rgba(122,37,187,0.88)" v-on:mouseover="cover" v-on:mouseout="uncover">
+	 <a href="new.php?pid=peixun"> 
+      <div class="left_source position_rel" style="background:rgba(26, 188, 156,0.88)" >
       	<div class="dark_cover">
       		<?php
 					$source->connectsql();
@@ -81,8 +81,8 @@ $source=new source;
 		</a> 
 	</div>
 	<div class="left_line2">
-	 <a href="show.php?pid=rizhi"> 
-     <div class="left_info position_rel" style="background:rgba(225,123,161,0.88)" v-on:mouseover="cover" v-on:mouseout="uncover">
+	 <a href="new.php?pid=rizhi"> 
+     <div class="left_info position_rel" style="background:rgba(155, 89, 182,0.88)" >
       <div class="dark_cover">
       	<?php
 					$source->connectsql();
@@ -96,8 +96,8 @@ $source=new source;
       <div class="p3" style="margin-top: 6px">表格下载
 		 </div>
 		 </div></a>
-	  <a href="show.php?pid=lianxi">
-	  <div class="left_tour position_rel" v-on:mouseover="cover" v-on:mouseout="uncover">
+	  <a href="new.php?pid=lianxi">
+	  <div class="left_tour position_rel" >
 	  	<div class="dark_cover">
 	  		<?php
 					$source->connectsql();
@@ -111,8 +111,8 @@ $source=new source;
 		  <div class="p3" style="margin-top: 10px">联系我们
 		 </div>
 		  </div></a>
-	  <a href="show.php?pid=time">
-	  <div class="left_time position_rel" style="background:rgba(112,139,206,0.88)" v-on:mouseover="cover" v-on:mouseout="uncover">
+	  <a href="new.php?pid=time">
+	  <div class="left_time position_rel" style="background:rgba(46, 204, 113,0.88)" >
 	  	<div class="dark_cover">
 	  		<?php
 					$source->connectsql();
@@ -142,7 +142,7 @@ $source=new source;
    <div class="right">
     <div class="right_line1">
     
-     <a href="show.php?pid=news"><div class="right_line1_right">
+     <a href="new.php?pid=news"><div class="right_line1_right">
       <div class="right_1">
 
        <img src="./image/3.png" style="width:160px;height:140px;margin:20px 15px" >
@@ -155,7 +155,7 @@ $source=new source;
       <?php
 		$source->connectsql();
 		$news=$source->get_toparticle("news");
-	  	echo substr($news["content"],0,120);
+	  	echo strip_tags(substr($news["content"],0,120));
 	  //UTF-8下一个中文占3个字符 
 	  	echo "......";
 		  ?>
@@ -163,8 +163,8 @@ $source=new source;
       </div>      
 		 </div></a>
      
-     <a href="show.php?pid=info">
-     	<div class="right_connect position_rel"  v-on:mouseover="cover" v-on:mouseout="uncover">
+     <a href="new.php?pid=info">
+     	<div class="right_connect position_rel"  >
      		<div class="dark_cover">
      			<?php
 					$source->connectsql();
@@ -182,8 +182,8 @@ $source=new source;
     </div>
     
     <div class="right_line2">
-      	<a href="show.php?pid=ziyuan">
-      		<div class="right_blog position_rel" v-on:mouseover="cover" v-on:mouseout="uncover">
+      	<a href="new.php?pid=ziyuan">
+      		<div class="right_blog position_rel" >
       			<div class="dark_cover">
       			<?php
 					$source->connectsql();
@@ -197,8 +197,8 @@ $source=new source;
        			<div class="p3" style="margin-top: 16px">学习资源</div>
 		 	</div>
 		</a>
-    <a href="show.php?pid=canguan">
-    	<div class="right_data position_rel" v-on:mouseover="cover" v-on:mouseout="uncover">
+    <a href="new.php?pid=canguan">
+    	<div class="right_data position_rel" >
     		<div class="dark_cover">
     			<?php
 					$source->connectsql();
@@ -216,8 +216,8 @@ $source=new source;
     </div>
     
     <div class="right_line2">
-    	<a href="show.php?pid=tongji">
-    		<div class="right_train position_rel" v-on:mouseover="cover" v-on:mouseout="uncover">
+    	<a href="new.php?pid=tongji">
+    		<div class="right_train position_rel" >
     		<div class="dark_cover">
     			<?php
 					$source->connectsql();
@@ -231,8 +231,8 @@ $source=new source;
        			<div class="p3" style="margin-top:10px">数据统计</div>
 		  	</div>
 		</a>
-      	<a href="show.php?pid=tiandi">
-      		<div class="right_stu position_rel" v-on:mouseover="cover" v-on:mouseout="uncover">
+      	<a href="new.php?pid=tiandi">
+      		<div class="right_stu position_rel" >
       			<div class="dark_cover">
       				<?php
 					$source->connectsql();
