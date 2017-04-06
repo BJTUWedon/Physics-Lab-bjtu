@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+}
+.main{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	right:0px;
+	bottom: 0px;
+	display: flex;
+}
+footer{
+	position: absolute;
+	bottom: 0px;
+	left:0px;
+	right:0px;
+	height:100px;
+}
+.left_page{
+	flex-basis: 100px;
+	flex-grow: 1;
+}
+.right_page{
+	flex-basis: 400px;
+	flex-grow: 4;
+}
